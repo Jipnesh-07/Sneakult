@@ -19,10 +19,11 @@ struct CommunityUIViewCell: View {
                 
                 VStack(alignment: .leading, spacing: 4) {
                     HStack{
-                        
-                        Text("Steve Jobs")
-                            .font(.title3)
-                            .fontWeight(.semibold)
+                        NavigationLink(destination: CommunityProfileView()) {
+                            Text("Steve Jobs")
+                                .font(.title3)
+                                .fontWeight(.semibold)
+                        }.buttonStyle(PlainButtonStyle())
                         
                         Spacer()
                         Text("10m")

@@ -25,6 +25,17 @@
 		3F7D4FAA2BD7ADA2000C61AC /* BagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4FA92BD7ADA2000C61AC /* BagView.swift */; };
 		3F7D4FAD2BD7ADC5000C61AC /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4FAC2BD7ADC5000C61AC /* CommunityView.swift */; };
 		3F7D4FAF2BD7AE91000C61AC /* CommunityUIViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4FAE2BD7AE91000C61AC /* CommunityUIViewCell.swift */; };
+		3FE2966A2BD8BC25006D9390 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296692BD8BC25006D9390 /* MainTabBarViewController.swift */; };
+		3FE2966C2BD8C3BE006D9390 /* CommunityProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2966B2BD8C3BE006D9390 /* CommunityProfileView.swift */; };
+		3FE2966F2BD8CE20006D9390 /* CommunityProfileFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2966E2BD8CE20006D9390 /* CommunityProfileFilter.swift */; };
+		3FE296712BD8DF7E006D9390 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296702BD8DF7E006D9390 /* CommunityViewController.swift */; };
+		3FE296732BD8E2F2006D9390 /* CommunityAddPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296722BD8E2F2006D9390 /* CommunityAddPostView.swift */; };
+		3FE296752BD901BA006D9390 /* BiddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296742BD901BA006D9390 /* BiddingViewController.swift */; };
+		3FE296772BD901C9006D9390 /* BagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296762BD901C9006D9390 /* BagViewController.swift */; };
+		3FE296792BD901D4006D9390 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296782BD901D4006D9390 /* ProfileViewController.swift */; };
+		3FE2967B2BD901F5006D9390 /* KicksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2967A2BD901F5006D9390 /* KicksViewController.swift */; };
+		3FE2967D2BD90409006D9390 /* BidCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2967C2BD90409006D9390 /* BidCardView.swift */; };
+		3FE2967F2BD904E7006D9390 /* BiddingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2967E2BD904E7006D9390 /* BiddingPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +59,17 @@
 		3F7D4FA92BD7ADA2000C61AC /* BagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagView.swift; sourceTree = "<group>"; };
 		3F7D4FAC2BD7ADC5000C61AC /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		3F7D4FAE2BD7AE91000C61AC /* CommunityUIViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityUIViewCell.swift; sourceTree = "<group>"; };
+		3FE296692BD8BC25006D9390 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		3FE2966B2BD8C3BE006D9390 /* CommunityProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityProfileView.swift; sourceTree = "<group>"; };
+		3FE2966E2BD8CE20006D9390 /* CommunityProfileFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityProfileFilter.swift; sourceTree = "<group>"; };
+		3FE296702BD8DF7E006D9390 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		3FE296722BD8E2F2006D9390 /* CommunityAddPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityAddPostView.swift; sourceTree = "<group>"; };
+		3FE296742BD901BA006D9390 /* BiddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiddingViewController.swift; sourceTree = "<group>"; };
+		3FE296762BD901C9006D9390 /* BagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagViewController.swift; sourceTree = "<group>"; };
+		3FE296782BD901D4006D9390 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3FE2967A2BD901F5006D9390 /* KicksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KicksViewController.swift; sourceTree = "<group>"; };
+		3FE2967C2BD90409006D9390 /* BidCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidCardView.swift; sourceTree = "<group>"; };
+		3FE2967E2BD904E7006D9390 /* BiddingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiddingPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +102,7 @@
 		3F7D4F742BD77E31000C61AC /* Sneakult */ = {
 			isa = PBXGroup;
 			children = (
+				3FE296682BD8BBE9006D9390 /* Controllers */,
 				3F7D4FAB2BD7ADB1000C61AC /* Community */,
 				3F7D4FA82BD7AD93000C61AC /* Bag */,
 				3F7D4FA32BD7AD2A000C61AC /* Bidding */,
@@ -138,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				3F7D4FA42BD7AD47000C61AC /* BiddingView.swift */,
+				3FE2967C2BD90409006D9390 /* BidCardView.swift */,
+				3FE2967E2BD904E7006D9390 /* BiddingPageView.swift */,
 			);
 			path = Bidding;
 			sourceTree = "<group>";
@@ -155,8 +180,24 @@
 			children = (
 				3F7D4FAC2BD7ADC5000C61AC /* CommunityView.swift */,
 				3F7D4FAE2BD7AE91000C61AC /* CommunityUIViewCell.swift */,
+				3FE2966B2BD8C3BE006D9390 /* CommunityProfileView.swift */,
+				3FE2966E2BD8CE20006D9390 /* CommunityProfileFilter.swift */,
+				3FE296722BD8E2F2006D9390 /* CommunityAddPostView.swift */,
 			);
 			path = Community;
+			sourceTree = "<group>";
+		};
+		3FE296682BD8BBE9006D9390 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FE296692BD8BC25006D9390 /* MainTabBarViewController.swift */,
+				3FE296702BD8DF7E006D9390 /* CommunityViewController.swift */,
+				3FE296742BD901BA006D9390 /* BiddingViewController.swift */,
+				3FE296762BD901C9006D9390 /* BagViewController.swift */,
+				3FE296782BD901D4006D9390 /* ProfileViewController.swift */,
+				3FE2967A2BD901F5006D9390 /* KicksViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,20 +272,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7D4FAD2BD7ADC5000C61AC /* CommunityView.swift in Sources */,
+				3FE2966F2BD8CE20006D9390 /* CommunityProfileFilter.swift in Sources */,
 				3F7D4F912BD7AB29000C61AC /* BrandView.swift in Sources */,
 				3F7D4F9B2BD7AC43000C61AC /* SettingsView.swift in Sources */,
 				3F7D4F992BD7AC35000C61AC /* MainView.swift in Sources */,
+				3FE296752BD901BA006D9390 /* BiddingViewController.swift in Sources */,
+				3FE296712BD8DF7E006D9390 /* CommunityViewController.swift in Sources */,
 				3F7D4F7A2BD77E31000C61AC /* ViewController.swift in Sources */,
 				3F7D4FA52BD7AD47000C61AC /* BiddingView.swift in Sources */,
+				3FE296732BD8E2F2006D9390 /* CommunityAddPostView.swift in Sources */,
 				3F7D4FAA2BD7ADA2000C61AC /* BagView.swift in Sources */,
+				3FE2967F2BD904E7006D9390 /* BiddingPageView.swift in Sources */,
 				3F7D4F942BD7AB60000C61AC /* ProfileEditView.swift in Sources */,
 				3F7D4F762BD77E31000C61AC /* AppDelegate.swift in Sources */,
+				3FE296772BD901C9006D9390 /* BagViewController.swift in Sources */,
+				3FE2966A2BD8BC25006D9390 /* MainTabBarViewController.swift in Sources */,
+				3FE296792BD901D4006D9390 /* ProfileViewController.swift in Sources */,
+				3FE2967B2BD901F5006D9390 /* KicksViewController.swift in Sources */,
 				3F7D4F962BD7AB6B000C61AC /* ProfileView.swift in Sources */,
 				3F7D4F9D2BD7AC4E000C61AC /* PaymentsView.swift in Sources */,
 				3F7D4FA02BD7ACD4000C61AC /* KicksView.swift in Sources */,
 				3F7D4F782BD77E31000C61AC /* SceneDelegate.swift in Sources */,
 				3F7D4FA22BD7ACFE000C61AC /* ListOfSneakers.swift in Sources */,
 				3F7D4FAF2BD7AE91000C61AC /* CommunityUIViewCell.swift in Sources */,
+				3FE2967D2BD90409006D9390 /* BidCardView.swift in Sources */,
+				3FE2966C2BD8C3BE006D9390 /* CommunityProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
