@@ -27,6 +27,8 @@ struct KicksView: View {
                         .frame(height: 200)
                     }
                     
+                    
+                    
                     // Announcements Section
                     SectionView(title: "Announcements") {
                         ScrollView(.horizontal) {
