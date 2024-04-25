@@ -14,6 +14,7 @@ struct KicksView: View {
     }
 }
 
+
 #Preview {
     KicksView()
 }
