@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D12E542BDA0D1D006A00B3 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D12E532BDA0D1D006A00B3 /* HomePageView.swift */; };
+		18D12E562BDA0E0E006A00B3 /* NewArrivalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D12E552BDA0E0E006A00B3 /* NewArrivalCellView.swift */; };
+		18D12E582BDA0E32006A00B3 /* AnnouncementsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D12E572BDA0E31006A00B3 /* AnnouncementsCellView.swift */; };
 		3F7D4F762BD77E31000C61AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4F752BD77E31000C61AC /* AppDelegate.swift */; };
 		3F7D4F782BD77E31000C61AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4F772BD77E31000C61AC /* SceneDelegate.swift */; };
 		3F7D4F7A2BD77E31000C61AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4F792BD77E31000C61AC /* ViewController.swift */; };
@@ -39,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18D12E532BDA0D1D006A00B3 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		18D12E552BDA0E0E006A00B3 /* NewArrivalCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalCellView.swift; sourceTree = "<group>"; };
+		18D12E572BDA0E31006A00B3 /* AnnouncementsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsCellView.swift; sourceTree = "<group>"; };
 		3F7D4F722BD77E31000C61AC /* Sneakult.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sneakult.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7D4F752BD77E31000C61AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7D4F772BD77E31000C61AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D12E522BDA0CC9006A00B3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18D12E532BDA0D1D006A00B3 /* HomePageView.swift */,
+				18D12E552BDA0E0E006A00B3 /* NewArrivalCellView.swift */,
+				18D12E572BDA0E31006A00B3 /* AnnouncementsCellView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		3F7D4F692BD77E31000C61AC = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +127,7 @@
 				3F7D4F922BD7AB46000C61AC /* Profile */,
 				3F7D4F8F2BD7AB06000C61AC /* Onboarding */,
 				3F7D4F752BD77E31000C61AC /* AppDelegate.swift */,
+				18D12E522BDA0CC9006A00B3 /* Home */,
 				3F7D4F772BD77E31000C61AC /* SceneDelegate.swift */,
 				3F7D4F792BD77E31000C61AC /* ViewController.swift */,
 				3F7D4F7B2BD77E31000C61AC /* Main.storyboard */,
@@ -272,12 +289,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7D4FAD2BD7ADC5000C61AC /* CommunityView.swift in Sources */,
+				18D12E562BDA0E0E006A00B3 /* NewArrivalCellView.swift in Sources */,
 				3FE2966F2BD8CE20006D9390 /* CommunityProfileFilter.swift in Sources */,
 				3F7D4F912BD7AB29000C61AC /* BrandView.swift in Sources */,
 				3F7D4F9B2BD7AC43000C61AC /* SettingsView.swift in Sources */,
 				3F7D4F992BD7AC35000C61AC /* MainView.swift in Sources */,
 				3FE296752BD901BA006D9390 /* BiddingViewController.swift in Sources */,
 				3FE296712BD8DF7E006D9390 /* CommunityViewController.swift in Sources */,
+				18D12E542BDA0D1D006A00B3 /* HomePageView.swift in Sources */,
 				3F7D4F7A2BD77E31000C61AC /* ViewController.swift in Sources */,
 				3F7D4FA52BD7AD47000C61AC /* BiddingView.swift in Sources */,
 				3FE296732BD8E2F2006D9390 /* CommunityAddPostView.swift in Sources */,
@@ -291,6 +310,7 @@
 				3FE2967B2BD901F5006D9390 /* KicksViewController.swift in Sources */,
 				3F7D4F962BD7AB6B000C61AC /* ProfileView.swift in Sources */,
 				3F7D4F9D2BD7AC4E000C61AC /* PaymentsView.swift in Sources */,
+				18D12E582BDA0E32006A00B3 /* AnnouncementsCellView.swift in Sources */,
 				3F7D4FA02BD7ACD4000C61AC /* KicksView.swift in Sources */,
 				3F7D4F782BD77E31000C61AC /* SceneDelegate.swift in Sources */,
 				3F7D4FA22BD7ACFE000C61AC /* ListOfSneakers.swift in Sources */,
