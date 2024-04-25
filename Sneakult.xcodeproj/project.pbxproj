@@ -27,6 +27,9 @@
 		3F7D4FAA2BD7ADA2000C61AC /* BagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4FA92BD7ADA2000C61AC /* BagView.swift */; };
 		3F7D4FAD2BD7ADC5000C61AC /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4FAC2BD7ADC5000C61AC /* CommunityView.swift */; };
 		3F7D4FAF2BD7AE91000C61AC /* CommunityUIViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4FAE2BD7AE91000C61AC /* CommunityUIViewCell.swift */; };
+		3F82EA632BDA5C1500F8AEA9 /* SneakerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82EA622BDA5C1500F8AEA9 /* SneakerCardView.swift */; };
+		3F82EA652BDA5D2E00F8AEA9 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82EA642BDA5D2E00F8AEA9 /* WishlistView.swift */; };
+		3F82EA672BDA601F00F8AEA9 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82EA662BDA601F00F8AEA9 /* CheckoutView.swift */; };
 		3FE2966A2BD8BC25006D9390 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296692BD8BC25006D9390 /* MainTabBarViewController.swift */; };
 		3FE2966C2BD8C3BE006D9390 /* CommunityProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2966B2BD8C3BE006D9390 /* CommunityProfileView.swift */; };
 		3FE2966F2BD8CE20006D9390 /* CommunityProfileFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2966E2BD8CE20006D9390 /* CommunityProfileFilter.swift */; };
@@ -65,6 +68,9 @@
 		3F7D4FA92BD7ADA2000C61AC /* BagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagView.swift; sourceTree = "<group>"; };
 		3F7D4FAC2BD7ADC5000C61AC /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		3F7D4FAE2BD7AE91000C61AC /* CommunityUIViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityUIViewCell.swift; sourceTree = "<group>"; };
+		3F82EA622BDA5C1500F8AEA9 /* SneakerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerCardView.swift; sourceTree = "<group>"; };
+		3F82EA642BDA5D2E00F8AEA9 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
+		3F82EA662BDA601F00F8AEA9 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		3FE296692BD8BC25006D9390 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		3FE2966B2BD8C3BE006D9390 /* CommunityProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityProfileView.swift; sourceTree = "<group>"; };
 		3FE2966E2BD8CE20006D9390 /* CommunityProfileFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityProfileFilter.swift; sourceTree = "<group>"; };
@@ -164,6 +170,7 @@
 				3F7D4FA12BD7ACFE000C61AC /* ListOfSneakers.swift */,
 				18D12E592BDA1AE1006A00B3 /* NewArrivalCellView.swift */,
 				18D12E5B2BDA1AED006A00B3 /* AnnouncementsCellView.swift */,
+				3F82EA622BDA5C1500F8AEA9 /* SneakerCardView.swift */,
 			);
 			path = Kicks;
 			sourceTree = "<group>";
@@ -182,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				3F7D4FA92BD7ADA2000C61AC /* BagView.swift */,
+				3F82EA642BDA5D2E00F8AEA9 /* WishlistView.swift */,
+				3F82EA662BDA601F00F8AEA9 /* CheckoutView.swift */,
 			);
 			path = Bag;
 			sourceTree = "<group>";
@@ -287,6 +296,7 @@
 				3FE2966F2BD8CE20006D9390 /* CommunityProfileFilter.swift in Sources */,
 				3F7D4F912BD7AB29000C61AC /* BrandView.swift in Sources */,
 				3F7D4F9B2BD7AC43000C61AC /* SettingsView.swift in Sources */,
+				3F82EA632BDA5C1500F8AEA9 /* SneakerCardView.swift in Sources */,
 				3F7D4F992BD7AC35000C61AC /* MainView.swift in Sources */,
 				3FE296752BD901BA006D9390 /* BiddingViewController.swift in Sources */,
 				3FE296712BD8DF7E006D9390 /* CommunityViewController.swift in Sources */,
@@ -305,6 +315,7 @@
 				3F7D4F962BD7AB6B000C61AC /* ProfileView.swift in Sources */,
 				3F7D4F9D2BD7AC4E000C61AC /* PaymentsView.swift in Sources */,
 				3F7D4FA02BD7ACD4000C61AC /* KicksView.swift in Sources */,
+				3F82EA672BDA601F00F8AEA9 /* CheckoutView.swift in Sources */,
 				3F7D4F782BD77E31000C61AC /* SceneDelegate.swift in Sources */,
 				18D12E5A2BDA1AE1006A00B3 /* NewArrivalCellView.swift in Sources */,
 				3F7D4FA22BD7ACFE000C61AC /* ListOfSneakers.swift in Sources */,
@@ -313,6 +324,7 @@
 				3FE2967D2BD90409006D9390 /* BidCardView.swift in Sources */,
 				3FE296812BD99026006D9390 /* NewSneakerListing.swift in Sources */,
 				3FE2966C2BD8C3BE006D9390 /* CommunityProfileView.swift in Sources */,
+				3F82EA652BDA5D2E00F8AEA9 /* WishlistView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

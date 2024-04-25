@@ -1,23 +1,23 @@
 //
-//  BagView.swift
+//  CheckoutView.swift
 //  Sneakult
 //
-//  Created by STUDENT on 23/04/24.
+//  Created by student on 25/04/24.
 //
 
 import SwiftUI
 
-struct BagView: View {
+struct CheckoutView: View {
     var body: some View {
-          VStack(alignment: .leading) {
-              ScrollView() {
-                  MyCartCard()
-              }
-          }
-          .navigationTitle("My Cart")
-      }
+           ScrollView {
+               CheckoutcardView()
+           }
+           .navigationTitle("Checkout")
+       }
 }
-struct MyCartCard: View {
+
+
+struct CheckoutcardView : View {
     @State private var quantity: Int = 1
     var body: some View {
         HStack(alignment: .top) {
@@ -35,7 +35,8 @@ struct MyCartCard: View {
                         Text("Quantity: \(quantity)")
                     }
                     .labelsHidden()
-                    
+                    Image(systemName: "cart.fill")
+                        .padding(.leading)
                     Image(systemName: "trash.fill")
                         .padding(.leading)
                 }
@@ -45,8 +46,9 @@ struct MyCartCard: View {
         }.overlay(RoundedRectangle(cornerRadius: 16.0).stroke(style: StrokeStyle()))
             .padding()
     }
+       
 }
 
 #Preview {
-    BagView()
+    CheckoutView()
 }
