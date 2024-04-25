@@ -36,6 +36,8 @@
 		3FE2967B2BD901F5006D9390 /* KicksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2967A2BD901F5006D9390 /* KicksViewController.swift */; };
 		3FE2967D2BD90409006D9390 /* BidCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2967C2BD90409006D9390 /* BidCardView.swift */; };
 		3FE2967F2BD904E7006D9390 /* BiddingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2967E2BD904E7006D9390 /* BiddingPageView.swift */; };
+		3FE296812BD99026006D9390 /* NewSneakerListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296802BD99026006D9390 /* NewSneakerListing.swift */; };
+		3FE296832BDA11BA006D9390 /* CommunityProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296822BDA11BA006D9390 /* CommunityProfileEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		3FE2967A2BD901F5006D9390 /* KicksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KicksViewController.swift; sourceTree = "<group>"; };
 		3FE2967C2BD90409006D9390 /* BidCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidCardView.swift; sourceTree = "<group>"; };
 		3FE2967E2BD904E7006D9390 /* BiddingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiddingPageView.swift; sourceTree = "<group>"; };
+		3FE296802BD99026006D9390 /* NewSneakerListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSneakerListing.swift; sourceTree = "<group>"; };
+		3FE296822BDA11BA006D9390 /* CommunityProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityProfileEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 			children = (
 				3F7D4F932BD7AB60000C61AC /* ProfileEditView.swift */,
 				3F7D4F952BD7AB6B000C61AC /* ProfileView.swift */,
+				3FE296802BD99026006D9390 /* NewSneakerListing.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				3FE2966B2BD8C3BE006D9390 /* CommunityProfileView.swift */,
 				3FE2966E2BD8CE20006D9390 /* CommunityProfileFilter.swift */,
 				3FE296722BD8E2F2006D9390 /* CommunityAddPostView.swift */,
+				3FE296822BDA11BA006D9390 /* CommunityProfileEditView.swift */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -295,7 +301,9 @@
 				3F7D4F782BD77E31000C61AC /* SceneDelegate.swift in Sources */,
 				3F7D4FA22BD7ACFE000C61AC /* ListOfSneakers.swift in Sources */,
 				3F7D4FAF2BD7AE91000C61AC /* CommunityUIViewCell.swift in Sources */,
+				3FE296832BDA11BA006D9390 /* CommunityProfileEditView.swift in Sources */,
 				3FE2967D2BD90409006D9390 /* BidCardView.swift in Sources */,
+				3FE296812BD99026006D9390 /* NewSneakerListing.swift in Sources */,
 				3FE2966C2BD8C3BE006D9390 /* CommunityProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

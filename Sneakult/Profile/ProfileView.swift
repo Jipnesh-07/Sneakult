@@ -41,7 +41,7 @@ struct ProfileView: View {
                 
                 Section {
                     VStack {
-                        NavigationLink( destination: ProfileEditView()) {
+                        NavigationLink( destination: NewSneakerListing()) {
                             HStack {
                                 Text("My listings")
                                     .fontWeight(.semibold)
@@ -60,6 +60,7 @@ struct ProfileView: View {
                                 .aspectRatio(contentMode: .fit)
                             
                             VStack{
+                                
                                 Image(systemName: "plus.circle")
                                 Text("Add more")
                             }
