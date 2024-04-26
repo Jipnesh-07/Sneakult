@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		18D12E5A2BDA1AE1006A00B3 /* NewArrivalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D12E592BDA1AE1006A00B3 /* NewArrivalCellView.swift */; };
 		18D12E5C2BDA1AED006A00B3 /* AnnouncementsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D12E5B2BDA1AED006A00B3 /* AnnouncementsCellView.swift */; };
+		18EACD132BDBA70100F085A0 /* FilterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EACD122BDBA70100F085A0 /* FilterCardView.swift */; };
 		3F7D4F762BD77E31000C61AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4F752BD77E31000C61AC /* AppDelegate.swift */; };
 		3F7D4F782BD77E31000C61AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4F772BD77E31000C61AC /* SceneDelegate.swift */; };
 		3F7D4F7A2BD77E31000C61AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D4F792BD77E31000C61AC /* ViewController.swift */; };
@@ -63,6 +64,7 @@
 /* Begin PBXFileReference section */
 		18D12E592BDA1AE1006A00B3 /* NewArrivalCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivalCellView.swift; sourceTree = "<group>"; };
 		18D12E5B2BDA1AED006A00B3 /* AnnouncementsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsCellView.swift; sourceTree = "<group>"; };
+		18EACD122BDBA70100F085A0 /* FilterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCardView.swift; sourceTree = "<group>"; };
 		3F7D4F722BD77E31000C61AC /* Sneakult.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sneakult.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7D4F752BD77E31000C61AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7D4F772BD77E31000C61AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				18D12E5B2BDA1AED006A00B3 /* AnnouncementsCellView.swift */,
 				3F82EA622BDA5C1500F8AEA9 /* SneakerCardView.swift */,
 				3F82EA682BDA80B500F8AEA9 /* ViewAllView.swift */,
+				18EACD122BDBA70100F085A0 /* FilterCardView.swift */,
 			);
 			path = Kicks;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				3FEF18302BDB791B008246A3 /* Listings.swift in Sources */,
 				3F7D4FA52BD7AD47000C61AC /* BiddingView.swift in Sources */,
 				3FEF18422BDB7DE2008246A3 /* BidsCard.swift in Sources */,
+				18EACD132BDBA70100F085A0 /* FilterCardView.swift in Sources */,
 				3FEF18322BDB7994008246A3 /* SellerDetails.swift in Sources */,
 				3FE296732BD8E2F2006D9390 /* CommunityAddPostView.swift in Sources */,
 				3F7D4FAA2BD7ADA2000C61AC /* BagView.swift in Sources */,
