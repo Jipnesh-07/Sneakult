@@ -80,17 +80,17 @@ struct KicksView: View {
                     
 
                 }
-                ToolbarItem(placement: .navigationBarTrailing){
-                    Button(action: {
-                        // Add action for the navigation item
-                    }) {
-                        Image(systemName: "person.circle.fill")
-                            .font(.title)
-                            .foregroundColor(.blue)
-                            
-                        
-                    }
-                }
+//                ToolbarItem(placement: .navigationBarTrailing){
+//                    Button(action: {
+//                        // Add action for the navigation item
+//                    }) {
+//                        Image(systemName: "person.circle.fill")
+//                            .font(.title)
+//                            .foregroundColor(.blue)
+//                            
+//                        
+//                    }
+//                }
             }
             .sheet(isPresented: $isShowingAllItems) {
                 // Present a sheet or navigate to another view to show all items

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CommunityView: View{
     @State private var SearchTitle: String = ""
+    @State private var isEditing = false 
     var body: some View{
         NavigationStack{
             ScrollView(showsIndicators: false){
@@ -19,9 +20,32 @@ struct CommunityView: View{
                 }
             }
             .navigationTitle("Community")
+//            .navigationBarItems(trailing: CommunityProfileView())
             .searchable(text: $SearchTitle)
 //         .navigationBarTitleDisplayMode(.inline)
+            .toolbar{
+                ToolbarItem(placement: .navigationBarTrailing){
+                    Button(action: {
+                        isEditing.toggle()
+                    }){
+                        Image(systemName: "plus.circle")
+                            .font(.title3)
+                            .fontWeight(.semibold)
+                        
+                    }
+                    .padding()
+                    .padding(.top, 90)
+//                    Button("Edit") {
+//                        isEditing.toggle() // Toggle the state variable to show/hide the edit view
+//                    }
+                }
+                
+                
+            }
             
+        }
+        .sheet(isPresented: $isEditing) { // Present modally when isEditing is true
+            CommunityAddPostView() // Replace EditView with your actual edit view
         }
      
         

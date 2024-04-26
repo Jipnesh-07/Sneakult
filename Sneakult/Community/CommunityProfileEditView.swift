@@ -11,6 +11,7 @@ struct CommunityProfileEditView: View {
     @State private var bio = ""
     @State private var link = ""
     @State private var isPrivateProfile = false
+    @Environment(\.dismiss) var dismiss
     var body: some View {
         NavigationStack {
             ZStack {
@@ -62,7 +63,7 @@ struct CommunityProfileEditView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Cancel"){
-                        
+                        dismiss()
                     }
                     
                     .font(.subheadline)
@@ -71,7 +72,7 @@ struct CommunityProfileEditView: View {
                 
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Done") {
-                        
+                        dismiss()
                     }
                     .font(.subheadline)
                     .fontWeight(.semibold)
