@@ -19,6 +19,7 @@ struct CommunityView: View{
                 }
             }
             .navigationTitle("Community")
+//            .navigationBarItems(trailing: CommunityProfileView())
             .searchable(text: $SearchTitle)
 //         .navigationBarTitleDisplayMode(.inline)
             
