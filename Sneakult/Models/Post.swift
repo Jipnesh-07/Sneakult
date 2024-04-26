@@ -13,7 +13,7 @@ struct Post {
     var image : [String]
     var caption : String
     var likes : Int
-    var comments : [Comments]
+//    var comments : [Comments]
     var share : URL
     var isBookmark : Bool
 }

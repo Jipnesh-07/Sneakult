@@ -11,7 +11,7 @@ struct Reviews{
     var user : User
     var reviewId : UUID
     var time : Date
-    var comment : [Comments]
+//    var comment : [Comments]
     var stars : Int
     
 }
