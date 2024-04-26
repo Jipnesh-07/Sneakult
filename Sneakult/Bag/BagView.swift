@@ -24,6 +24,8 @@ struct MyCartCard: View {
             Image("Image")
                 .resizable()
                 .frame(width: 130, height: 130)
+                .clipShape(Rectangle())
+                .cornerRadius(14)
             VStack(alignment: .leading) {
                 Text("Jordan Retro 6G")
                     .font(.headline)

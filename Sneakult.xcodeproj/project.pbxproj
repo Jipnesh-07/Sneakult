@@ -30,6 +30,7 @@
 		3F82EA632BDA5C1500F8AEA9 /* SneakerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82EA622BDA5C1500F8AEA9 /* SneakerCardView.swift */; };
 		3F82EA652BDA5D2E00F8AEA9 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82EA642BDA5D2E00F8AEA9 /* WishlistView.swift */; };
 		3F82EA672BDA601F00F8AEA9 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82EA662BDA601F00F8AEA9 /* CheckoutView.swift */; };
+		3F82EA692BDA80B500F8AEA9 /* ViewAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82EA682BDA80B500F8AEA9 /* ViewAllView.swift */; };
 		3FE2966A2BD8BC25006D9390 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296692BD8BC25006D9390 /* MainTabBarViewController.swift */; };
 		3FE2966C2BD8C3BE006D9390 /* CommunityProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2966B2BD8C3BE006D9390 /* CommunityProfileView.swift */; };
 		3FE2966F2BD8CE20006D9390 /* CommunityProfileFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2966E2BD8CE20006D9390 /* CommunityProfileFilter.swift */; };
@@ -43,6 +44,7 @@
 		3FE2967F2BD904E7006D9390 /* BiddingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2967E2BD904E7006D9390 /* BiddingPageView.swift */; };
 		3FE296812BD99026006D9390 /* NewSneakerListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296802BD99026006D9390 /* NewSneakerListing.swift */; };
 		3FE296832BDA11BA006D9390 /* CommunityProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE296822BDA11BA006D9390 /* CommunityProfileEditView.swift */; };
+		3FEF182E2BDB767D008246A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF182D2BDB767D008246A3 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,7 @@
 		3F82EA622BDA5C1500F8AEA9 /* SneakerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerCardView.swift; sourceTree = "<group>"; };
 		3F82EA642BDA5D2E00F8AEA9 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
 		3F82EA662BDA601F00F8AEA9 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		3F82EA682BDA80B500F8AEA9 /* ViewAllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllView.swift; sourceTree = "<group>"; };
 		3FE296692BD8BC25006D9390 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		3FE2966B2BD8C3BE006D9390 /* CommunityProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityProfileView.swift; sourceTree = "<group>"; };
 		3FE2966E2BD8CE20006D9390 /* CommunityProfileFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityProfileFilter.swift; sourceTree = "<group>"; };
@@ -84,6 +87,7 @@
 		3FE2967E2BD904E7006D9390 /* BiddingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiddingPageView.swift; sourceTree = "<group>"; };
 		3FE296802BD99026006D9390 /* NewSneakerListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSneakerListing.swift; sourceTree = "<group>"; };
 		3FE296822BDA11BA006D9390 /* CommunityProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityProfileEditView.swift; sourceTree = "<group>"; };
+		3FEF182D2BDB767D008246A3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 		3F7D4F742BD77E31000C61AC /* Sneakult */ = {
 			isa = PBXGroup;
 			children = (
+				3FEF182C2BDB766E008246A3 /* Models */,
 				3FE296682BD8BBE9006D9390 /* Controllers */,
 				3F7D4FAB2BD7ADB1000C61AC /* Community */,
 				3F7D4FA82BD7AD93000C61AC /* Bag */,
@@ -171,6 +176,7 @@
 				18D12E592BDA1AE1006A00B3 /* NewArrivalCellView.swift */,
 				18D12E5B2BDA1AED006A00B3 /* AnnouncementsCellView.swift */,
 				3F82EA622BDA5C1500F8AEA9 /* SneakerCardView.swift */,
+				3F82EA682BDA80B500F8AEA9 /* ViewAllView.swift */,
 			);
 			path = Kicks;
 			sourceTree = "<group>";
@@ -219,6 +225,14 @@
 				3FE2967A2BD901F5006D9390 /* KicksViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FEF182C2BDB766E008246A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FEF182D2BDB767D008246A3 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,8 +319,10 @@
 				3F7D4FA52BD7AD47000C61AC /* BiddingView.swift in Sources */,
 				3FE296732BD8E2F2006D9390 /* CommunityAddPostView.swift in Sources */,
 				3F7D4FAA2BD7ADA2000C61AC /* BagView.swift in Sources */,
+				3FEF182E2BDB767D008246A3 /* User.swift in Sources */,
 				3FE2967F2BD904E7006D9390 /* BiddingPageView.swift in Sources */,
 				3F7D4F942BD7AB60000C61AC /* ProfileEditView.swift in Sources */,
+				3F82EA692BDA80B500F8AEA9 /* ViewAllView.swift in Sources */,
 				3F7D4F762BD77E31000C61AC /* AppDelegate.swift in Sources */,
 				3FE296772BD901C9006D9390 /* BagViewController.swift in Sources */,
 				3FE2966A2BD8BC25006D9390 /* MainTabBarViewController.swift in Sources */,
